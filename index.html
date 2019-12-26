@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Log in / Sign Up</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<form action="" method="POST">
+			<table>
+				<tr>
+					<td id="signup" onClick="changeColor('signup', 'login')">Sign Up</td>
+					<td id="login" onClick="changeColor('login', 'signup')">Log In</td>
+				</tr>
+			</table>
+			<h1><span>Sign Up for Free</span></h1>
+			<div class="name_last">
+				<input type="text" name="name" id="name" placeholder="First Name*" required>
+				<input type="text" name="last name" id="last_name" placeholder="Last Name*" required>
+			</div>
+			<div class="email">
+				<input type="email" name="email" id="email" placeholder="Email Address*" required>
+			</div>
+			<div class="password">
+				<input type="password" name="password" id="password" placeholder="Set A Password*" required>
+			</div>
+			<button type="submit">GET STARTED</button>
+		</form>
+		<section>
+			<div class = "square" id = "square1">
+			</div>
+		</section>
+		<section>
+			<div class = "square" id = "square2">
+			</div>
+		</section>
+		<section>
+			<div class = "square" id = "square3">
+			</div>
+		</section>
+		<section>
+			<div class = "square" id = "square4">
+			</div>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>

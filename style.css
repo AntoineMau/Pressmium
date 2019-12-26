@@ -1,0 +1,111 @@
+form {
+	padding: 30px;
+	max-width:400px;
+	margin:40px auto;
+	background:rgb(19,35,47);
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+	color:rgb(255,255,255);
+	font-weight: 400;
+	text-align: center;
+}
+
+span {
+	transition: all 0.3s ease;
+	font-size: 20px;
+}
+
+span:hover {
+	transition: all 0.3s ease;
+	font-size: 30px;
+}
+
+button {
+	border:0;
+	width: 100%;
+	padding:15px;
+	font-weight: 300;
+	font-size: 2rem;
+	letter-spacing: 0.1em;
+	color:rgb(255,255,255);
+	background:rgb(26, 177, 136);
+}
+
+button:hover {
+	background-color:blue;
+}
+
+table {
+	border-spacing: 0;
+}
+
+td {
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+}
+
+input {
+	color:rgb(255, 255, 255);
+	padding: 7px;
+	border:1px solid rgb(160,179,176);
+	background-color:rgb(19,35,47);
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow:0 0 0 50px rgb(19,35,47) inset;
+	-webkit-text-fill-color: white;
+}
+
+a {
+	transition:.5s ease;
+	text-decoration:none;
+}
+
+.name_last, .email, .password {
+	margin-bottom: 7%;
+}
+
+#signup {
+	color:rgb(204, 237, 228);
+	background:rgb(26, 177, 136);
+}
+
+#login {
+	color:rgb(255, 255, 255);
+	background:rgb(67, 82, 88);
+}
+
+#name {
+	width: 44%;
+	margin-right: 2%;
+}
+
+#name:focus {
+	outline: none;
+	border-color: red;
+}
+
+#last_name {
+	width: 44%;
+}
+
+#email, #password {
+	width: 96%;
+}
+
+section {
+	width: 100%;
+	min-height:300px;
+	background-color:lightgrey;
+	margin-top: 20px;
+}
+
+.square{
+	width: 250px;
+	height: 250px;
+	margin: 20px;
+	background-color:red;
+}
